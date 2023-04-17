@@ -43,7 +43,7 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./website/build
+          publish_dir: ./my-website/build
           user_name: 'Mark Bot'
           user_email: 'noreply@marksilverwood.com'
           commit_message: '[skip ci] Deploy website on ${{ github.event.head_commit.id }}'

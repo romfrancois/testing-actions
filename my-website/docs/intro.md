@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Hello World 🌍
+🌍 Hello World 🌍
 
 ## Getting Started
 

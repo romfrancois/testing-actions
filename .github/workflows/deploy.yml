@@ -2,8 +2,6 @@ name: Documentation Website Deployment
 
 on:
   push:
-    branches:
-      - master
     paths:
       - '.github/workflows/deploy.yml'
       - 'src/**'

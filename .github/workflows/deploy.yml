@@ -27,10 +27,10 @@ jobs:
         with:
           node-version: '16'
 
-      - name: Install library dependencies
-        run: npm install
-      - name: Build library
-        run: npm run build:prod
+      # - name: Install library dependencies
+      #   run: npm install
+      # - name: Build library
+      #   run: npm run build:prod
       - name: Install website dependencies
         working-directory: ./my-website
         run: npm install
